@@ -1,0 +1,22 @@
+.App {
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .todo-item input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .todo-item button {
+    margin-left: 5px;
+  }
+  
